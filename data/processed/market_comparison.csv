@@ -1,0 +1,10 @@
+candidate,forecast_probability,yes_price,implied_probability,normalized_probability,stale_price_flag,liquidity_warning,settlement_warning,market_probability,edge_vs_market,market_data_available,last_updated
+Dan Cox,0.33832797747228166,0.575,0.58,0.5858585858585859,True,ok,ok,0.5858585858585859,-0.2475306083863042,True,2026-05-20
+Ed Hale,0.19416432055738733,0.339,0.34,0.3434343434343435,True,ok,ok,0.3434343434343435,-0.14927002287695615,True,2026-05-20
+John A. Myrick,0.18519336905231878,0.027,0.03,0.030303030303030304,True,ok,ok,0.030303030303030304,0.15489033874928848,True,2026-05-20
+Shannon Wright,0.08776244018599189,,,,,,,,,False,2026-05-20
+Carl A. Brunner Jr.,0.04842091567621281,,,,,,,,,False,2026-05-20
+Douglas Larcomb,0.042730743618104666,,,,,,,,,False,2026-05-20
+L. D. Burkindine,0.03739419399768293,,,,,,,,,False,2026-05-20
+Nancy Jane Taylor,0.03439594913748526,,,,,,,,,False,2026-05-20
+Michael Oakes,0.03161009030253464,,,,,,,,,False,2026-05-20

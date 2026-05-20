@@ -1,0 +1,11 @@
+dataset_name,row_count,missing_source_count,missing_notes_count,stale,required_for_publish,last_updated
+wager_settings,5,0,0,False,False,2026-05-20
+finance,4,0,0,False,True,2026-05-20
+polls,0,0,0,False,True,2026-05-20
+source_checks,4,0,0,False,False,2026-05-20
+candidates,10,0,0,False,True,2026-05-20
+markets,5,0,0,True,True,2026-05-20
+election_admin,6,0,0,False,False,2026-05-20
+events,8,0,0,False,False,2026-05-20
+historical_2022_primary_results,4,0,0,False,True,2026-05-20
+historical_2022_county_results,24,0,0,False,False,2026-05-20

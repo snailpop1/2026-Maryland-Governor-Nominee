@@ -1,0 +1,12 @@
+snapshot_file,source_file,sha256,last_updated
+data/snapshots/mdgopgov-20260520/raw/candidates.csv,data/raw/candidates.csv,765db5df7b5a1deb5566eb2ae182069403638638f422d8a8b3f0847a05a7046f,2026-05-20
+data/snapshots/mdgopgov-20260520/raw/election_admin.csv,data/raw/election_admin.csv,a239c3691efa25e69f2496051d7fc81b20055f5774723dd3e8f1a6c7c0e1cb25,2026-05-20
+data/snapshots/mdgopgov-20260520/raw/events.csv,data/raw/events.csv,59a5bdc8974925e026ef0279c080a3b0150062284949475d321b75e478cf50a1,2026-05-20
+data/snapshots/mdgopgov-20260520/raw/finance.csv,data/raw/finance.csv,bdb8c559c61915db120fd400a5086a85c00fc68b9349e9fb845305faea1bf6ac,2026-05-20
+data/snapshots/mdgopgov-20260520/raw/historical_2022_county_results.csv,data/raw/historical_2022_county_results.csv,9117bdcc8b10146f45700bbf37ece6635383e88f0711d79ce8d4fad58e2c0b95,2026-05-20
+data/snapshots/mdgopgov-20260520/raw/historical_2022_primary_results.csv,data/raw/historical_2022_primary_results.csv,78c03046e10c02a2e2343107ce9a212be05ed37c7cc1aa1033e8cded8e8ee984,2026-05-20
+data/snapshots/mdgopgov-20260520/raw/markets.csv,data/raw/markets.csv,70fb4c05f10bfc4dbfef127872d4daa475b51e060605c9cef28b6616be437aea,2026-05-20
+data/snapshots/mdgopgov-20260520/raw/polls.csv,data/raw/polls.csv,cc532bf81b42a2fac3a5758714963d2877ed2cd15fc8dedcfb2c772b19942f3a,2026-05-20
+data/snapshots/mdgopgov-20260520/raw/source_checks.csv,data/raw/source_checks.csv,c93ac013ba5a26f2cdad6e6e5458f75ce1b7848a42630fbbf7ee3f712ff4bfb0,2026-05-20
+data/snapshots/mdgopgov-20260520/raw/source_registry.csv,data/raw/source_registry.csv,ffd2f6e7ef0dd0d1dcf2eac0bb2edb36bc598080663bfeb63c156d416b44d60c,2026-05-20
+data/snapshots/mdgopgov-20260520/raw/wager_settings.csv,data/raw/wager_settings.csv,03d5c6fc31663c81a39ebf834cc89306cf8f41b30d75208c073fd96236baa675,2026-05-20

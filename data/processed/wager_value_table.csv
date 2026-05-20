@@ -1,0 +1,10 @@
+candidate,forecast_probability,market_probability,edge_vs_market,worst_case_scenario_probability,required_edge,value_flag,decision_eligible,capped_exposure_fraction,block_reasons,last_updated
+Dan Cox,0.33832797747228166,0.5858585858585859,-0.2475306083863042,0.26975052457588966,0.08,no_bet,False,0.0,forecast_withheld;stale_market_price;edge_below_required_buffer;edge_not_durable_across_scenarios,2026-05-20
+Ed Hale,0.19416432055738733,0.3434343434343435,-0.14927002287695615,0.14362643672311456,0.08,no_bet,False,0.0,forecast_withheld;stale_market_price;edge_below_required_buffer;edge_not_durable_across_scenarios,2026-05-20
+John A. Myrick,0.18519336905231878,0.030303030303030304,0.15489033874928848,0.15186250262315992,0.08,no_bet,False,0.0,forecast_withheld;stale_market_price;edge_not_durable_across_scenarios,2026-05-20
+Shannon Wright,0.08776244018599189,,,0.07196706810379845,0.08,no_bet,False,0.0,forecast_withheld;no_direct_market;edge_below_required_buffer;edge_not_durable_across_scenarios,2026-05-20
+Carl A. Brunner Jr.,0.04842091567621281,,,0.03970618101243837,0.08,no_bet,False,0.0,forecast_withheld;no_direct_market;edge_below_required_buffer;edge_not_durable_across_scenarios,2026-05-20
+Douglas Larcomb,0.042730743618104666,,,0.03504011886603098,0.08,no_bet,False,0.0,forecast_withheld;no_direct_market;edge_below_required_buffer;edge_not_durable_across_scenarios,2026-05-20
+L. D. Burkindine,0.03739419399768293,,,0.030664034641865442,0.08,no_bet,False,0.0,forecast_withheld;no_direct_market;edge_below_required_buffer;edge_not_durable_across_scenarios,2026-05-20
+Nancy Jane Taylor,0.03439594913748526,,,0.02820541006866049,0.08,no_bet,False,0.0,forecast_withheld;no_direct_market;edge_below_required_buffer;edge_not_durable_across_scenarios,2026-05-20
+Michael Oakes,0.03161009030253464,,,0.025920946554683796,0.08,no_bet,False,0.0,forecast_withheld;no_direct_market;edge_below_required_buffer;edge_not_durable_across_scenarios,2026-05-20
