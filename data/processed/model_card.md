@@ -8,21 +8,23 @@ This package estimates the June 23, 2026 Maryland Republican gubernatorial prima
 
 - As of: `2026-05-20`
 - Top candidate: `Dan Cox`
-- Top candidate fair probability: `33.8%`
+- Top candidate fair probability: `62.3%`
+- Top candidate interval: `54.1% to 70.0%`
 - Release status: `withheld`
 - Betting eligible: `False`
 
 ## Inputs
 
-- Official May 20 SBE candidate list.
+- Official May 2026 SBE ballot and candidate list.
 - Official 2022 Maryland GOP governor primary statewide and county results.
-- Current campaign-finance reporting summarized from Maryland Matters and MDCRIS source checks.
-- Debate, event, and ballot-administration signals.
-- Prediction markets as an external price check only.
+- Current campaign-finance reporting summarized from MDCRIS and reporting captures.
+- Public Maryland environment polling on Wes Moore approval, state direction, and generic governor matchups.
+- Debate, endorsement, ballot-administration, and organizational activity.
+- Prediction markets as a weak external price check only.
 
 ## Known Limits
 
 - No credible public candidate-level poll was found as of the run date.
 - Finance is incomplete for several minor active candidates.
-- Market prices are stale and include non-active names, so the betting layer defaults to no bet.
-- Reliability score: `26/100`.
+- Market prices are stale and include non-active names.
+- Reliability score: `40/100`.

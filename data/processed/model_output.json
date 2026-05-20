@@ -1,48 +1,99 @@
 {
-  "version": "1.0",
+  "version": "2.0",
   "as_of": "2026-05-20",
   "primary_date": "2026-06-23",
   "headline_forecast": {
     "candidate": "Dan Cox",
-    "probability": 0.3383
+    "probability": 0.6228,
+    "interval": [
+      0.541,
+      0.7001
+    ]
   },
   "candidate_probabilities": {
-    "Dan Cox": 0.3383,
-    "Ed Hale": 0.1942,
-    "John A. Myrick": 0.1852,
-    "Shannon Wright": 0.0878,
-    "Carl A. Brunner Jr.": 0.0484,
-    "Douglas Larcomb": 0.0427,
-    "L. D. Burkindine": 0.0374,
-    "Nancy Jane Taylor": 0.0344,
-    "Michael Oakes": 0.0316
+    "Dan Cox": 0.6228,
+    "John A. Myrick": 0.1253,
+    "Ed Hale": 0.1019,
+    "Carl A. Brunner Jr.": 0.0418,
+    "Douglas Larcomb": 0.0295,
+    "Shannon Wright": 0.0237,
+    "Nancy Jane Taylor": 0.0212,
+    "Michael Oakes": 0.0186,
+    "L. D. Burkindine": 0.0153
+  },
+  "candidate_intervals": {
+    "Dan Cox": {
+      "p10": 0.541,
+      "p90": 0.7001
+    },
+    "John A. Myrick": {
+      "p10": 0.0854,
+      "p90": 0.1685
+    },
+    "Ed Hale": {
+      "p10": 0.0704,
+      "p90": 0.1385
+    },
+    "Carl A. Brunner Jr.": {
+      "p10": 0.0265,
+      "p90": 0.0599
+    },
+    "Douglas Larcomb": {
+      "p10": 0.019,
+      "p90": 0.0417
+    },
+    "Shannon Wright": {
+      "p10": 0.0151,
+      "p90": 0.0335
+    },
+    "Nancy Jane Taylor": {
+      "p10": 0.0131,
+      "p90": 0.0305
+    },
+    "Michael Oakes": {
+      "p10": 0.0116,
+      "p90": 0.0267
+    },
+    "L. D. Burkindine": {
+      "p10": 0.0095,
+      "p90": 0.0221
+    }
   },
   "release_status": {
     "release_status": "withheld",
     "forecast_publishable": false,
     "betting_eligible": false,
-    "reliability_score": 26,
+    "reliability_score": 40,
     "reliability_class": "low",
-    "blocking_issues": "no_credible_public_polling;finance_incomplete_for_full_field;stale_market_price;verify_contract_terms;edge_not_durable_across_scenarios",
-    "reliability_penalties": "polling_component_unavailable;finance_missing_for_some_active_candidates;plurality_field_high_uncertainty"
+    "blocking_issues": "no_credible_candidate_polling;finance_incomplete_for_full_field;stale_market_price;verify_contract_terms",
+    "reliability_penalties": "candidate_polling_component_unavailable;finance_missing_for_some_active_candidates"
   },
   "model_health": {
     "cox_2022_share": 0.5199581113506039,
-    "cox_2022_votes": 153423.0,
+    "schulz_2022_share": 0.4348218037876015,
     "statewide_2022_gop_primary_votes": 295068.0,
     "poll_rows": 0.0,
     "active_candidate_count": 9.0,
-    "score_entropy": 1.8400603585639734
+    "score_entropy": 1.3327151830016992,
+    "top_margin": 0.49745608025507804,
+    "temperature": 2.35,
+    "environment_pressure": -0.01350167293696466
+  },
+  "environment_context": {
+    "approval_gap": 3.079990102170659,
+    "direction_gap": -3.751676026289548,
+    "matchup_gap": 6.3862917846050555,
+    "anti_incumbent_pressure": -0.01350167293696466
   },
   "betting_decision_summary": {
     "Dan Cox": "no_bet",
-    "Ed Hale": "no_bet",
     "John A. Myrick": "no_bet",
-    "Shannon Wright": "no_bet",
+    "Ed Hale": "no_bet",
     "Carl A. Brunner Jr.": "no_bet",
     "Douglas Larcomb": "no_bet",
-    "L. D. Burkindine": "no_bet",
+    "Shannon Wright": "no_bet",
     "Nancy Jane Taylor": "no_bet",
-    "Michael Oakes": "no_bet"
+    "Michael Oakes": "no_bet",
+    "L. D. Burkindine": "no_bet"
   }
 }

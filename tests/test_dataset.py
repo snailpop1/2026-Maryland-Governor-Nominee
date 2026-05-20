@@ -67,12 +67,33 @@ def test_pipeline_outputs_and_market_exclusion() -> None:
     assert scenarios["scenario"].nunique() >= 8
     assert release["release_status"] == "withheld"
     assert not release["forecast_publishable"]
-    assert "no_credible_public_polling" in release["blocking_issues"]
+    assert "no_credible_candidate_polling" in release["blocking_issues"]
 
     output = json.loads((PROCESSED_DIR / "model_output.json").read_text(encoding="utf-8"))
     assert output["as_of"] == "2026-05-20"
     assert output["headline_forecast"]["candidate"] == scores.iloc[0]["candidate"]
     assert "market" not in output["model_health"]
+    assert "environment_context" in output
+
+
+def test_pipeline_is_deterministic() -> None:
+    first = main("2026-05-20")["candidate_scores"]
+    second = main("2026-05-20")["candidate_scores"]
+    pd.testing.assert_series_equal(
+        first["forecast_probability"].reset_index(drop=True),
+        second["forecast_probability"].reset_index(drop=True),
+        check_names=False,
+    )
+    pd.testing.assert_series_equal(
+        first["probability_p10"].reset_index(drop=True),
+        second["probability_p10"].reset_index(drop=True),
+        check_names=False,
+    )
+    pd.testing.assert_series_equal(
+        first["probability_p90"].reset_index(drop=True),
+        second["probability_p90"].reset_index(drop=True),
+        check_names=False,
+    )
 
 
 def test_required_processed_outputs_exist() -> None:
@@ -84,6 +105,10 @@ def test_required_processed_outputs_exist() -> None:
         "market_comparison.csv",
         "wager_value_table.csv",
         "data_quality_report.csv",
+        "candidate_poll_summary.csv",
+        "environment_polls.csv",
+        "environment_poll_summary.csv",
+        "environment_context.csv",
         "source_manifest.csv",
         "source_registry_status.csv",
         "release_status.csv",
@@ -116,3 +141,20 @@ def test_processed_csvs_include_last_updated() -> None:
         assert "last_updated" in frame.columns, path.name
         if not frame.empty:
             assert set(frame["last_updated"].dropna()) == {"2026-05-20"}
+
+
+def test_probability_intervals_are_well_formed() -> None:
+    scores = main("2026-05-20")["candidate_scores"]
+    assert (scores["probability_p10"] <= scores["forecast_probability"]).all()
+    assert (scores["forecast_probability"] <= scores["probability_p90"]).all()
+    assert (scores["confidence_band_width"] >= 0).all()
+
+
+def test_environment_poll_layer_has_signal() -> None:
+    result = main("2026-05-20")
+    env_context = json.loads((PROCESSED_DIR / "model_output.json").read_text(encoding="utf-8"))["environment_context"]
+    env_summary = pd.read_csv(PROCESSED_DIR / "environment_poll_summary.csv")
+    assert not env_summary.empty
+    assert {"job_approval", "direction_of_state", "matchup"}.issubset(set(env_summary["measure_group"]))
+    assert "anti_incumbent_pressure" in env_context
+    assert pd.notna(env_context["anti_incumbent_pressure"])

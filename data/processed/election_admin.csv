@@ -1,7 +1,7 @@
-event_date,event_type,value,source_url,notes,last_updated
-2026-06-23,primary_election_day,,https://elections.maryland.gov/elections/2026/vote2026/index.html,Maryland SBE lists primary election day as June 23 2026.,2026-05-20
-2026-06-11,early_vote_start,,https://elections.maryland.gov/elections/2026/vote2026/index.html,Maryland SBE lists early voting from June 11 through June 18 2026.,2026-05-20
-2026-06-18,early_vote_end,,https://elections.maryland.gov/elections/2026/vote2026/index.html,Maryland SBE lists early voting from June 11 through June 18 2026.,2026-05-20
-2026-06-02,registration_party_deadline,,https://elections.maryland.gov/elections/2026/vote2026/index.html,Maryland SBE lists June 2 2026 as the deadline to register online or by mail.,2026-05-20
-2026-05-15,mail_ballot_vendor_error,500000.0,https://elections.maryland.gov/elections/2026/2026_replacement_mib.html,SBE replacement-ballot page says some voters received the incorrect party ballot and replacement ballots are being sent to affected mail-ballot voters.,2026-05-20
-2026-05-19,ballot_error_fact_check,500000.0,https://apnews.com/article/3ffa16cbc93dd02dc39302c31b3f3bcf,AP reported the vendor error and replacement process and quoted election experts saying voters cannot vote twice because returned mail-ballot envelopes are authenticated.,2026-05-20
+event_date,event_type,value,source_url,notes,days_to_event,is_future_event,last_updated
+2026-06-23,primary_election_day,,https://elections.maryland.gov/elections/2026/vote2026/index.html,Maryland SBE lists primary election day as June 23 2026.,34,True,2026-05-20
+2026-06-11,early_vote_start,,https://elections.maryland.gov/elections/2026/vote2026/index.html,Maryland SBE lists early voting from June 11 through June 18 2026.,22,True,2026-05-20
+2026-06-18,early_vote_end,,https://elections.maryland.gov/elections/2026/vote2026/index.html,Maryland SBE lists early voting from June 11 through June 18 2026.,29,True,2026-05-20
+2026-06-02,registration_party_deadline,,https://elections.maryland.gov/elections/2026/vote2026/index.html,Maryland SBE lists June 2 2026 as the deadline to register online or by mail.,13,True,2026-05-20
+2026-05-15,mail_ballot_vendor_error,500000.0,https://elections.maryland.gov/elections/2026/2026_replacement_mib.html,SBE replacement-ballot page says some voters received the incorrect party ballot and replacement ballots are being sent to affected mail-ballot voters.,-5,False,2026-05-20
+2026-05-19,ballot_error_fact_check,500000.0,https://apnews.com/article/3ffa16cbc93dd02dc39302c31b3f3bcf,AP reported the vendor error and replacement process and quoted election experts saying voters cannot vote twice because returned mail-ballot envelopes are authenticated.,-1,False,2026-05-20
