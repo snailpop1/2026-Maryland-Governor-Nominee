@@ -11,7 +11,7 @@ This is election research, not financial advice. The official wager layer defaul
 Run the pipeline for the current generated forecast:
 
 ```bash
-python3 scripts/build_dataset.py --as-of 2026-05-20
+python3 scripts/build_dataset.py --as-of 2026-05-24
 python3 scripts/build_showcase.py
 python3 -m pytest
 ```
@@ -45,8 +45,8 @@ Prediction markets are excluded from the core model and used only as an external
 
 ## Known Limits
 
-- No credible public candidate-level poll was found as of May 20, 2026.
+- No credible public candidate-level poll was found as of May 24, 2026.
 - Maryland environment polling is included from Gonzales Research and UMBC Institute of Politics coverage.
 - Finance reporting is incomplete for several minor active candidates.
-- The available market snapshot is stale and includes non-active names.
+- The refreshed market snapshot includes non-active names and remains an external comparison only.
 - The forecast remains withheld for official betting purposes.

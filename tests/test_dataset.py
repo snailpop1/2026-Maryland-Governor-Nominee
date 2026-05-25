@@ -16,6 +16,7 @@ from scripts.build_showcase import main as build_showcase
 
 RAW_DIR = ROOT / "data" / "raw"
 PROCESSED_DIR = ROOT / "data" / "processed"
+TEST_AS_OF = "2026-05-24"
 
 
 def test_candidate_status_and_normalization() -> None:
@@ -56,7 +57,7 @@ def test_2022_results_reconcile_to_official_totals() -> None:
 
 
 def test_pipeline_outputs_and_market_exclusion() -> None:
-    result = main("2026-05-20")
+    result = main(TEST_AS_OF, write_outputs=False)
     scores = result["candidate_scores"]
     scenarios = result["scenarios"]
     release = result["release_status"].iloc[0]
@@ -70,15 +71,15 @@ def test_pipeline_outputs_and_market_exclusion() -> None:
     assert "no_credible_candidate_polling" in release["blocking_issues"]
 
     output = json.loads((PROCESSED_DIR / "model_output.json").read_text(encoding="utf-8"))
-    assert output["as_of"] == "2026-05-20"
+    assert output["as_of"] == TEST_AS_OF
     assert output["headline_forecast"]["candidate"] == scores.iloc[0]["candidate"]
     assert "market" not in output["model_health"]
     assert "environment_context" in output
 
 
 def test_pipeline_is_deterministic() -> None:
-    first = main("2026-05-20")["candidate_scores"]
-    second = main("2026-05-20")["candidate_scores"]
+    first = main(TEST_AS_OF, write_outputs=False)["candidate_scores"]
+    second = main(TEST_AS_OF, write_outputs=False)["candidate_scores"]
     pd.testing.assert_series_equal(
         first["forecast_probability"].reset_index(drop=True),
         second["forecast_probability"].reset_index(drop=True),
@@ -97,7 +98,6 @@ def test_pipeline_is_deterministic() -> None:
 
 
 def test_required_processed_outputs_exist() -> None:
-    main("2026-05-20")
     build_showcase()
     required = [
         "candidate_forecast.csv",
@@ -125,7 +125,7 @@ def test_required_processed_outputs_exist() -> None:
 
 
 def test_wager_layer_is_safety_gated_no_bet() -> None:
-    result = main("2026-05-20")
+    result = main(TEST_AS_OF, write_outputs=False)
     wager = result["wager_value_table"]
     assert (wager["value_flag"] == "no_bet").all()
     assert not wager["decision_eligible"].any()
@@ -135,23 +135,21 @@ def test_wager_layer_is_safety_gated_no_bet() -> None:
 
 
 def test_processed_csvs_include_last_updated() -> None:
-    main("2026-05-20")
     for path in PROCESSED_DIR.glob("*.csv"):
         frame = pd.read_csv(path)
         assert "last_updated" in frame.columns, path.name
         if not frame.empty:
-            assert set(frame["last_updated"].dropna()) == {"2026-05-20"}
+            assert set(frame["last_updated"].dropna()) == {TEST_AS_OF}
 
 
 def test_probability_intervals_are_well_formed() -> None:
-    scores = main("2026-05-20")["candidate_scores"]
+    scores = main(TEST_AS_OF, write_outputs=False)["candidate_scores"]
     assert (scores["probability_p10"] <= scores["forecast_probability"]).all()
     assert (scores["forecast_probability"] <= scores["probability_p90"]).all()
     assert (scores["confidence_band_width"] >= 0).all()
 
 
 def test_environment_poll_layer_has_signal() -> None:
-    result = main("2026-05-20")
     env_context = json.loads((PROCESSED_DIR / "model_output.json").read_text(encoding="utf-8"))["environment_context"]
     env_summary = pd.read_csv(PROCESSED_DIR / "environment_poll_summary.csv")
     assert not env_summary.empty

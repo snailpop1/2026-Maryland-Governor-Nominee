@@ -1,91 +1,91 @@
 scenario,candidate,scenario_probability,last_updated
-baseline,Dan Cox,0.6302500722225665,2026-05-20
-baseline,John A. Myrick,0.12338478136086314,2026-05-20
-baseline,Ed Hale,0.10072782248682906,2026-05-20
-baseline,Carl A. Brunner Jr.,0.0408922860956719,2026-05-20
-baseline,Douglas Larcomb,0.0287910935159201,2026-05-20
-baseline,Shannon Wright,0.022995471844221287,2026-05-20
-baseline,Nancy Jane Taylor,0.020365064218406084,2026-05-20
-baseline,Michael Oakes,0.017890874652300204,2026-05-20
-baseline,L. D. Burkindine,0.014702533603221792,2026-05-20
-cox_repeat_base_consolidation,Dan Cox,0.7441588565711452,2026-05-20
-cox_repeat_base_consolidation,John A. Myrick,0.08029448539663786,2026-05-20
-cox_repeat_base_consolidation,Ed Hale,0.06555013173017828,2026-05-20
-cox_repeat_base_consolidation,Carl A. Brunner Jr.,0.030885004624521963,2026-05-20
-cox_repeat_base_consolidation,Douglas Larcomb,0.021745251764692903,2026-05-20
-cox_repeat_base_consolidation,Shannon Wright,0.017367951808568836,2026-05-20
-cox_repeat_base_consolidation,Nancy Jane Taylor,0.015381265334312777,2026-05-20
-cox_repeat_base_consolidation,Michael Oakes,0.013512566773113677,2026-05-20
-cox_repeat_base_consolidation,L. D. Burkindine,0.011104485996828528,2026-05-20
-hale_money_moderate_surge,Dan Cox,0.5128629988185583,2026-05-20
-hale_money_moderate_surge,John A. Myrick,0.11903441013666843,2026-05-20
-hale_money_moderate_surge,Ed Hale,0.22760023121842204,2026-05-20
-hale_money_moderate_surge,Carl A. Brunner Jr.,0.039450482473214976,2026-05-20
-hale_money_moderate_surge,Douglas Larcomb,0.027775960665958374,2026-05-20
-hale_money_moderate_surge,Shannon Wright,0.022184684339518448,2026-05-20
-hale_money_moderate_surge,Nancy Jane Taylor,0.019647021130940412,2026-05-20
-hale_money_moderate_surge,Michael Oakes,0.017260067956331712,2026-05-20
-hale_money_moderate_surge,L. D. Burkindine,0.01418414326038734,2026-05-20
-myrick_organization_surge,Dan Cox,0.5609701179728909,2026-05-20
-myrick_organization_surge,John A. Myrick,0.21695930421751636,2026-05-20
-myrick_organization_surge,Ed Hale,0.0896553621395455,2026-05-20
-myrick_organization_surge,Carl A. Brunner Jr.,0.03639722003422393,2026-05-20
-myrick_organization_surge,Douglas Larcomb,0.02562624557778819,2026-05-20
-myrick_organization_surge,Shannon Wright,0.023254713727998165,2026-05-20
-myrick_organization_surge,Nancy Jane Taylor,0.018126443741351007,2026-05-20
-myrick_organization_surge,Michael Oakes,0.01592422834470513,2026-05-20
-myrick_organization_surge,L. D. Burkindine,0.013086364243980818,2026-05-20
-wright_debate_surge,Dan Cox,0.5989374634748039,2026-05-20
-wright_debate_surge,John A. Myrick,0.12767074811821427,2026-05-20
-wright_debate_surge,Ed Hale,0.10422676371732226,2026-05-20
-wright_debate_surge,Carl A. Brunner Jr.,0.04231274473656012,2026-05-20
-wright_debate_surge,Douglas Larcomb,0.029791197972531488,2026-05-20
-wright_debate_surge,Shannon Wright,0.042263012677599084,2026-05-20
-wright_debate_surge,Nancy Jane Taylor,0.02107247713666648,2026-05-20
-wright_debate_surge,Michael Oakes,0.018512342658110657,2026-05-20
-wright_debate_surge,L. D. Burkindine,0.015213249508191853,2026-05-20
-fragmented_field_plurality,Dan Cox,0.5628393393687025,2026-05-20
-fragmented_field_plurality,John A. Myrick,0.13400570668024525,2026-05-20
-fragmented_field_plurality,Ed Hale,0.11209457664588292,2026-05-20
-fragmented_field_plurality,Carl A. Brunner Jr.,0.05070578524505177,2026-05-20
-fragmented_field_plurality,Douglas Larcomb,0.037235764072089825,2026-05-20
-fragmented_field_plurality,Shannon Wright,0.030553314835172433,2026-05-20
-fragmented_field_plurality,Nancy Jane Taylor,0.027455703669434867,2026-05-20
-fragmented_field_plurality,Michael Oakes,0.02449790088358899,2026-05-20
-fragmented_field_plurality,L. D. Burkindine,0.020611908599831426,2026-05-20
-late_trump_or_major_gop_endorsement,Dan Cox,0.7378006663291558,2026-05-20
-late_trump_or_major_gop_endorsement,John A. Myrick,0.09044841402418409,2026-05-20
-late_trump_or_major_gop_endorsement,Ed Hale,0.06499006286282874,2026-05-20
-late_trump_or_major_gop_endorsement,Carl A. Brunner Jr.,0.02997648804319966,2026-05-20
-late_trump_or_major_gop_endorsement,Douglas Larcomb,0.021105591125705474,2026-05-20
-late_trump_or_major_gop_endorsement,Shannon Wright,0.01685705429071115,2026-05-20
-late_trump_or_major_gop_endorsement,Nancy Jane Taylor,0.014928808397108828,2026-05-20
-late_trump_or_major_gop_endorsement,Michael Oakes,0.013115079671562417,2026-05-20
-late_trump_or_major_gop_endorsement,L. D. Burkindine,0.010777835255543877,2026-05-20
-mail_ballot_admin_uncertainty,Dan Cox,0.5972578056918748,2026-05-20
-mail_ballot_admin_uncertainty,John A. Myrick,0.12894532602731437,2026-05-20
-mail_ballot_admin_uncertainty,Ed Hale,0.1065565579700683,2026-05-20
-mail_ballot_admin_uncertainty,Carl A. Brunner Jr.,0.04566280769018932,2026-05-20
-mail_ballot_admin_uncertainty,Douglas Larcomb,0.03283389273229956,2026-05-20
-mail_ballot_admin_uncertainty,Shannon Wright,0.02658052106340336,2026-05-20
-mail_ballot_admin_uncertainty,Nancy Jane Taylor,0.023712226862597975,2026-05-20
-mail_ballot_admin_uncertainty,Michael Oakes,0.020993912513037012,2026-05-20
-mail_ballot_admin_uncertainty,L. D. Burkindine,0.017456949449215296,2026-05-20
-low_turnout,Dan Cox,0.7128593240011929,2026-05-20
-low_turnout,John A. Myrick,0.09515398475199244,2026-05-20
-low_turnout,Ed Hale,0.07768100392365994,2026-05-20
-low_turnout,Carl A. Brunner Jr.,0.031536012178369814,2026-05-20
-low_turnout,Douglas Larcomb,0.0222036076345152,2026-05-20
-low_turnout,Shannon Wright,0.01972464746888873,2026-05-20
-low_turnout,Nancy Jane Taylor,0.015705478331594486,2026-05-20
-low_turnout,Michael Oakes,0.013797390529759194,2026-05-20
-low_turnout,L. D. Burkindine,0.011338551180027282,2026-05-20
-high_turnout,Dan Cox,0.5705781867250566,2026-05-20
-high_turnout,John A. Myrick,0.1638284802306064,2026-05-20
-high_turnout,Ed Hale,0.13374490672955763,2026-05-20
-high_turnout,Carl A. Brunner Jr.,0.03702061686281119,2026-05-20
-high_turnout,Douglas Larcomb,0.02606516152265349,2026-05-20
-high_turnout,Shannon Wright,0.02081826755131164,2026-05-20
-high_turnout,Nancy Jane Taylor,0.018436906120931053,2026-05-20
-high_turnout,Michael Oakes,0.01619697207179347,2026-05-20
-high_turnout,L. D. Burkindine,0.013310502185278657,2026-05-20
+baseline,Dan Cox,0.6311008033559634,2026-05-24
+baseline,John A. Myrick,0.12337525697829899,2026-05-24
+baseline,Ed Hale,0.09796374473057895,2026-05-24
+baseline,Carl A. Brunner Jr.,0.04173890010720947,2026-05-24
+baseline,Douglas Larcomb,0.028999223554322263,2026-05-24
+baseline,Shannon Wright,0.02275893926029991,2026-05-24
+baseline,Nancy Jane Taylor,0.020791134478922862,2026-05-24
+baseline,Michael Oakes,0.018261257433675494,2026-05-24
+baseline,L. D. Burkindine,0.015010740100728559,2026-05-24
+cox_repeat_base_consolidation,Dan Cox,0.744677944775885,2026-05-24
+cox_repeat_base_consolidation,John A. Myrick,0.08023598734930974,2026-05-24
+cox_repeat_base_consolidation,Ed Hale,0.06370983919633341,2026-05-24
+cox_repeat_base_consolidation,Carl A. Brunner Jr.,0.031503897681696744,2026-05-24
+cox_repeat_base_consolidation,Douglas Larcomb,0.021888180315183164,2026-05-24
+cox_repeat_base_consolidation,Shannon Wright,0.01717810704064514,2026-05-24
+cox_repeat_base_consolidation,Nancy Jane Taylor,0.015692837416126502,2026-05-24
+cox_repeat_base_consolidation,Michael Oakes,0.013783324051470787,2026-05-24
+cox_repeat_base_consolidation,L. D. Burkindine,0.01132988217334966,2026-05-24
+hale_money_moderate_surge,Dan Cox,0.5154663312248836,2026-05-24
+hale_money_moderate_surge,John A. Myrick,0.1194681410279515,2026-05-24
+hale_money_moderate_surge,Ed Hale,0.2221783507686696,2026-05-24
+hale_money_moderate_surge,Carl A. Brunner Jr.,0.040417089507961655,2026-05-24
+hale_money_moderate_surge,Douglas Larcomb,0.02808086008605638,2026-05-24
+hale_money_moderate_surge,Shannon Wright,0.022038196570276183,2026-05-24
+hale_money_moderate_surge,Nancy Jane Taylor,0.020132709320280984,2026-05-24
+hale_money_moderate_surge,Michael Oakes,0.017682949822084744,2026-05-24
+hale_money_moderate_surge,L. D. Burkindine,0.01453537167183529,2026-05-24
+myrick_organization_surge,Dan Cox,0.5617480824573795,2026-05-24
+myrick_organization_surge,John A. Myrick,0.21695057019951583,2026-05-24
+myrick_organization_surge,Ed Hale,0.08719834527243903,2026-05-24
+myrick_organization_surge,Carl A. Brunner Jr.,0.037152142691664794,2026-05-24
+myrick_organization_surge,Douglas Larcomb,0.02581245046396355,2026-05-24
+myrick_organization_surge,Shannon Wright,0.023016364736625983,2026-05-24
+myrick_organization_surge,Nancy Jane Taylor,0.018506362000399547,2026-05-24
+myrick_organization_surge,Michael Oakes,0.016254497367264118,2026-05-24
+myrick_organization_surge,L. D. Burkindine,0.013361184810747686,2026-05-24
+wright_debate_surge,Dan Cox,0.5999029757523309,2026-05-24
+wright_debate_surge,John A. Myrick,0.1276943218335683,2026-05-24
+wright_debate_surge,Ed Hale,0.10139321492840671,2026-05-24
+wright_debate_surge,Carl A. Brunner Jr.,0.04320007652917513,2026-05-24
+wright_debate_surge,Douglas Larcomb,0.030014415176623014,2026-05-24
+wright_debate_surge,Shannon Wright,0.04183924624208741,2026-05-24
+wright_debate_surge,Nancy Jane Taylor,0.021518981053904172,2026-05-24
+wright_debate_surge,Michael Oakes,0.018900539224259213,2026-05-24
+wright_debate_surge,L. D. Burkindine,0.015536229259645101,2026-05-24
+fragmented_field_plurality,Dan Cox,0.5634170759190688,2026-05-24
+fragmented_field_plurality,John A. Myrick,0.13397501740653825,2026-05-24
+fragmented_field_plurality,Ed Hale,0.1093655780912324,2026-05-24
+fragmented_field_plurality,Carl A. Brunner Jr.,0.051620142691281595,2026-05-24
+fragmented_field_plurality,Douglas Larcomb,0.037466500108922024,2026-05-24
+fragmented_field_plurality,Shannon Wright,0.030271705874647798,2026-05-24
+fragmented_field_plurality,Nancy Jane Taylor,0.027956057514499963,2026-05-24
+fragmented_field_plurality,Michael Oakes,0.024939636411107066,2026-05-24
+fragmented_field_plurality,L. D. Burkindine,0.020988285982702158,2026-05-24
+late_trump_or_major_gop_endorsement,Dan Cox,0.7383424124906918,2026-05-24
+late_trump_or_major_gop_endorsement,John A. Myrick,0.09038583505943813,2026-05-24
+late_trump_or_major_gop_endorsement,Ed Hale,0.06316781194019613,2026-05-24
+late_trump_or_major_gop_endorsement,Carl A. Brunner Jr.,0.03057829773206616,2026-05-24
+late_trump_or_major_gop_endorsement,Douglas Larcomb,0.0212450948531259,2026-05-24
+late_trump_or_major_gop_endorsement,Shannon Wright,0.016673405839155157,2026-05-24
+late_trump_or_major_gop_endorsement,Nancy Jane Taylor,0.015231774163931944,2026-05-24
+late_trump_or_major_gop_endorsement,Michael Oakes,0.013378363237520598,2026-05-24
+late_trump_or_major_gop_endorsement,L. D. Burkindine,0.010997004683874266,2026-05-24
+mail_ballot_admin_uncertainty,Dan Cox,0.5979738779435416,2026-05-24
+mail_ballot_admin_uncertainty,John A. Myrick,0.12892697399407094,2026-05-24
+mail_ballot_admin_uncertainty,Ed Hale,0.1037984477279052,2026-05-24
+mail_ballot_admin_uncertainty,Carl A. Brunner Jr.,0.046547669704790344,2026-05-24
+mail_ballot_admin_uncertainty,Douglas Larcomb,0.03305465215415728,2026-05-24
+mail_ballot_admin_uncertainty,Shannon Wright,0.026321600865318238,2026-05-24
+mail_ballot_admin_uncertainty,Nancy Jane Taylor,0.024176581884499938,2026-05-24
+mail_ballot_admin_uncertainty,Michael Oakes,0.021400712943526915,2026-05-24
+mail_ballot_admin_uncertainty,L. D. Burkindine,0.017799482782189527,2026-05-24
+low_turnout,Dan Cox,0.7136176953590719,2026-05-24
+low_turnout,John A. Myrick,0.09511946557932492,2026-05-24
+low_turnout,Ed Hale,0.07552777820402924,2026-05-24
+low_turnout,Carl A. Brunner Jr.,0.0321797252488392,2026-05-24
+low_turnout,Douglas Larcomb,0.022357729696058024,2026-05-24
+low_turnout,Shannon Wright,0.019516183311411896,2026-05-24
+low_turnout,Nancy Jane Taylor,0.016029483130242838,2026-05-24
+low_turnout,Michael Oakes,0.01407900652400032,2026-05-24
+low_turnout,L. D. Burkindine,0.01157293294702184,2026-05-24
+high_turnout,Dan Cox,0.5720186333818448,2026-05-24
+high_turnout,John A. Myrick,0.16400801018395078,2026-05-24
+high_turnout,Ed Hale,0.13022739921228138,2026-05-24
+high_turnout,Carl A. Brunner Jr.,0.0378314026400006,2026-05-24
+high_turnout,Douglas Larcomb,0.026284384583997664,2026-05-24
+high_turnout,Shannon Wright,0.020628300999886773,2026-05-24
+high_turnout,Nancy Jane Taylor,0.01884471746486366,2026-05-24
+high_turnout,Michael Oakes,0.01655168154674859,2026-05-24
+high_turnout,L. D. Burkindine,0.013605469986425854,2026-05-24

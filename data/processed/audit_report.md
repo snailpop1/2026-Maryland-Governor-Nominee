@@ -1,22 +1,22 @@
 # Forecast Audit Report
 
-- Run ID: `mdgopgov-20260520`
-- As of: `2026-05-20`
+- Run ID: `mdgopgov-20260524`
+- As of: `2026-05-24`
 - Release status: `withheld`
 - Forecast publishable: `False`
 - Betting eligible: `False`
-- Reliability: `low` (40/100)
+- Reliability: `medium` (52/100)
 
 ## Headline Forecast
 
 - Leader: `Dan Cox`
-- Leader fair probability: `0.623`
-- Leader interval: `0.541` to `0.700`
+- Leader fair probability: `0.625`
+- Leader interval: `0.568` to `0.681`
 - Active candidates modeled: `9`
 
 ## Blocking Issues
 
-no_credible_candidate_polling;finance_incomplete_for_full_field;stale_market_price;verify_contract_terms
+no_credible_candidate_polling;finance_incomplete_for_full_field;verify_contract_terms
 
 ## Betting Decision Summary
 
@@ -26,12 +26,12 @@ All current market rows are safety-gated to no bet unless data freshness, liquid
 
 | rank | candidate | forecast_probability | p10 | p90 |
 | ---: | --- | ---: | ---: | ---: |
-| 1 | Dan Cox | 0.623 | 0.541 | 0.700 |
-| 2 | John A. Myrick | 0.125 | 0.085 | 0.168 |
-| 3 | Ed Hale | 0.102 | 0.070 | 0.139 |
-| 4 | Carl A. Brunner Jr. | 0.042 | 0.026 | 0.060 |
-| 5 | Douglas Larcomb | 0.029 | 0.019 | 0.042 |
-| 6 | Shannon Wright | 0.024 | 0.015 | 0.034 |
-| 7 | Nancy Jane Taylor | 0.021 | 0.013 | 0.031 |
+| 1 | Dan Cox | 0.625 | 0.568 | 0.681 |
+| 2 | John A. Myrick | 0.124 | 0.097 | 0.155 |
+| 3 | Ed Hale | 0.099 | 0.075 | 0.124 |
+| 4 | Carl A. Brunner Jr. | 0.043 | 0.028 | 0.060 |
+| 5 | Douglas Larcomb | 0.030 | 0.020 | 0.042 |
+| 6 | Shannon Wright | 0.023 | 0.015 | 0.033 |
+| 7 | Nancy Jane Taylor | 0.022 | 0.014 | 0.031 |
 | 8 | Michael Oakes | 0.019 | 0.012 | 0.027 |
-| 9 | L. D. Burkindine | 0.015 | 0.010 | 0.022 |
+| 9 | L. D. Burkindine | 0.016 | 0.010 | 0.022 |
