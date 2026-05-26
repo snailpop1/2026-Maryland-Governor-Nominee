@@ -16,7 +16,7 @@ from scripts.build_showcase import main as build_showcase
 
 RAW_DIR = ROOT / "data" / "raw"
 PROCESSED_DIR = ROOT / "data" / "processed"
-TEST_AS_OF = "2026-05-24"
+TEST_AS_OF = "2026-05-26"
 
 
 def test_candidate_status_and_normalization() -> None:

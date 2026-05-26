@@ -6,10 +6,10 @@ This package estimates the June 23, 2026 Maryland Republican gubernatorial prima
 
 ## Headline
 
-- As of: `2026-05-24`
+- As of: `2026-05-26`
 - Top candidate: `Dan Cox`
-- Top candidate fair probability: `62.5%`
-- Top candidate interval: `56.8% to 68.1%`
+- Top candidate fair probability: `60.9%`
+- Top candidate interval: `55.1% to 66.7%`
 - Release status: `withheld`
 - Betting eligible: `False`
 

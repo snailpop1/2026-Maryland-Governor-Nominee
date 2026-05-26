@@ -1,62 +1,62 @@
 {
   "version": "2.0",
-  "as_of": "2026-05-24",
+  "as_of": "2026-05-26",
   "primary_date": "2026-06-23",
   "headline_forecast": {
     "candidate": "Dan Cox",
-    "probability": 0.625,
+    "probability": 0.6087,
     "interval": [
-      0.5677,
-      0.6807
+      0.5508,
+      0.6669
     ]
   },
   "candidate_probabilities": {
-    "Dan Cox": 0.625,
-    "John A. Myrick": 0.1242,
-    "Ed Hale": 0.0986,
-    "Carl A. Brunner Jr.": 0.0429,
-    "Douglas Larcomb": 0.0298,
-    "Shannon Wright": 0.0234,
-    "Nancy Jane Taylor": 0.0216,
-    "Michael Oakes": 0.0189,
-    "L. D. Burkindine": 0.0155
+    "Dan Cox": 0.6087,
+    "John A. Myrick": 0.1343,
+    "Ed Hale": 0.0968,
+    "Carl A. Brunner Jr.": 0.0438,
+    "Douglas Larcomb": 0.0322,
+    "Shannon Wright": 0.0253,
+    "Nancy Jane Taylor": 0.0217,
+    "Michael Oakes": 0.0205,
+    "L. D. Burkindine": 0.0168
   },
   "candidate_intervals": {
     "Dan Cox": {
-      "p10": 0.5677,
-      "p90": 0.6807
+      "p10": 0.5508,
+      "p90": 0.6669
     },
     "John A. Myrick": {
-      "p10": 0.0965,
-      "p90": 0.1547
+      "p10": 0.1046,
+      "p90": 0.166
     },
     "Ed Hale": {
-      "p10": 0.0752,
-      "p90": 0.1236
+      "p10": 0.0744,
+      "p90": 0.1212
     },
     "Carl A. Brunner Jr.": {
-      "p10": 0.028,
-      "p90": 0.0602
+      "p10": 0.0282,
+      "p90": 0.0612
     },
     "Douglas Larcomb": {
-      "p10": 0.0198,
-      "p90": 0.0418
+      "p10": 0.0213,
+      "p90": 0.0445
     },
     "Shannon Wright": {
-      "p10": 0.0153,
-      "p90": 0.0329
+      "p10": 0.0167,
+      "p90": 0.0348
     },
     "Nancy Jane Taylor": {
       "p10": 0.0139,
-      "p90": 0.0306
+      "p90": 0.0305
     },
     "Michael Oakes": {
-      "p10": 0.0121,
-      "p90": 0.0269
+      "p10": 0.0134,
+      "p90": 0.0285
     },
     "L. D. Burkindine": {
-      "p10": 0.01,
-      "p90": 0.022
+      "p10": 0.0111,
+      "p90": 0.0236
     }
   },
   "release_status": {
@@ -74,16 +74,16 @@
     "statewide_2022_gop_primary_votes": 295068.0,
     "poll_rows": 0.0,
     "active_candidate_count": 9.0,
-    "score_entropy": 1.3316686896501155,
-    "top_margin": 0.5008172315860193,
+    "score_entropy": 1.369725710652208,
+    "top_margin": 0.47440473498677294,
     "temperature": 2.35,
-    "environment_pressure": -0.013501672936964661
+    "environment_pressure": -0.013501672936964668
   },
   "environment_context": {
     "approval_gap": 3.0799901021706613,
-    "direction_gap": -3.751676026289552,
-    "matchup_gap": 6.386291784605057,
-    "anti_incumbent_pressure": -0.013501672936964661
+    "direction_gap": -3.7516760262895477,
+    "matchup_gap": 6.386291784605054,
+    "anti_incumbent_pressure": -0.013501672936964668
   },
   "betting_decision_summary": {
     "Dan Cox": "no_bet",

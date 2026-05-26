@@ -1,0 +1,6 @@
+setting,value,notes
+min_required_edge,0.08,Minimum fair-probability edge over market price before any positive value flag.
+max_exposure_fraction,0.03,Hard cap for any suggested exposure in a speculative political market.
+stale_market_days,3,Prices older than this block betting eligibility.
+min_liquidity_usd,25000,Minimum liquidity threshold before a market can pass the safety gate.
+scenario_durability_threshold,0.52,Preferred side must remain above this probability in the worst named scenario.
